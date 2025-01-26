@@ -2,7 +2,6 @@ import React from 'react';
 import Modal from './Modal.jsx'
 import TimeLine from './Timeline.jsx'
 
-
 const Calendar = ({
     isOpen,
     onCloseModal
