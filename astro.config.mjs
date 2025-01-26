@@ -6,8 +6,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://IanLin09.github.io',
-    base: '/profolio',
+    site: 'https://ianlin09.github.io',
+    base: 'profolio',
     outDir: './dist',
     publicDir: './public',
     server: {
