@@ -8,7 +8,6 @@ const Footer = ({ onOpenModal }) => {
         { path: "/images/calendar.svg", alt: "calendar", text: "Calendar" },
         { path: "/images/stickies.png", alt: "note", text: "Stickies" },
         { path: "/images/book.png", alt: "contact", text: "Contact" },
-
     ]
 
     const icons = [
