@@ -3,17 +3,17 @@ import React from 'react';
 const Footer = ({ onOpenModal }) => {
 
     const workIcons = [
-        { path: "/images/terminal.svg", alt: "terminal", text: "Terminal" },
-        { path: "/images/picture.svg", alt: "picture", text: "Picture" },
-        { path: "/images/calendar.svg", alt: "calendar", text: "Calendar" },
-        { path: "/images/stickies.png", alt: "note", text: "Stickies" },
-        { path: "/images/book.png", alt: "contact", text: "Contact" },
+        { path: "/profolio/public/images/terminal.svg", alt: "terminal", text: "Terminal" },
+        { path: "/profolio/public/images/picture.svg", alt: "picture", text: "Picture" },
+        { path: "/profolio/public/images/calendar.svg", alt: "calendar", text: "Calendar" },
+        { path: "/profolio/public/images/stickies.png", alt: "note", text: "Stickies" },
+        { path: "/profolio/public/images/book.png", alt: "contact", text: "Contact" },
     ]
 
     const icons = [
-        { path: "/images/dockerIcon.svg", alt: "Docker", text: "Docker" },
-        { path: "/images/sourcetree.svg", alt: "Sourcetree", text: "Sourcetree" },
-        { path: "/images/postman.svg", alt: "Postman", text: "Postman" },
+        { path: "/profolio/public/images/dockerIcon.svg", alt: "Docker", text: "Docker" },
+        { path: "/profolio/public/images/sourcetree.svg", alt: "Sourcetree", text: "Sourcetree" },
+        { path: "/profolio/public/images/postman.svg", alt: "Postman", text: "Postman" },
     ];
 
     return (

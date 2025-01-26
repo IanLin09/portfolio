@@ -13,7 +13,7 @@ const Terminal = ({
         <div>
             <Modal isOpen={isOpen} onClose={() => onCloseModal("terminal")} modalStyle={modalStyle}>
 
-                <img className="w-2/3 h-auto object-contain" src="/images/word.png" />
+                <img className="w-2/3 h-auto object-contain" src="/profolio/public/images/word.png" />
                 <div className="pt-4">
 
                     <TypeAnimation
