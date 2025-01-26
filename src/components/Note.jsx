@@ -34,7 +34,7 @@ const Stickies = ({
                         <div className="m-1 bg-[#d6b11c] text-white font-bold py-2 px-4 rounded min-h-16">Project</div>
                     </div>
                     <div className='z-index-20 pt-1 flex-grow grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 flex-1 overflow-y-auto'>
-                        <Card imagePath="/profolio/public/images/car.jpg">
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
                             <div class="basis-1/5">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     data analysis
@@ -57,7 +57,7 @@ const Stickies = ({
 
                         </Card>
 
-                        <Card imagePath="/profolio/public/images/car.jpg">
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Receipe
@@ -78,7 +78,7 @@ const Stickies = ({
 
                         </Card>
                         
-                        <Card imagePath="/profolio/public/images/car.jpg">
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Portfolio website

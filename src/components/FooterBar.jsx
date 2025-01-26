@@ -3,17 +3,17 @@ import React from 'react';
 const Footer = ({ onOpenModal }) => {
 
     const workIcons = [
-        { path: "/profolio/public/images/terminal.svg", alt: "terminal", text: "Terminal" },
-        { path: "/profolio/public/images/picture.svg", alt: "picture", text: "Picture" },
-        { path: "/profolio/public/images/calendar.svg", alt: "calendar", text: "Calendar" },
-        { path: "/profolio/public/images/stickies.png", alt: "note", text: "Stickies" },
-        { path: "/profolio/public/images/book.png", alt: "contact", text: "Contact" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887913/profolio/ppvwt9jftgh4lcoy6c2u.svg", alt: "terminal", text: "Terminal" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/jdk2dlbuo0nrynlc3kii.svg", alt: "picture", text: "Picture" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737886671/profolio/yarainagcxjwvcywidzu.svg", alt: "calendar", text: "Calendar" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887913/profolio/tpurfiv3znxq40wppmpb.png", alt: "note", text: "Stickies" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887911/profolio/ja5orzmyihmioqzrbxj3.png", alt: "contact", text: "Contact" },
     ]
 
     const icons = [
-        { path: "/profolio/public/images/dockerIcon.svg", alt: "Docker", text: "Docker" },
-        { path: "/profolio/public/images/sourcetree.svg", alt: "Sourcetree", text: "Sourcetree" },
-        { path: "/profolio/public/images/postman.svg", alt: "Postman", text: "Postman" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/v3mue0gja5x8hd5bstgn.svg", alt: "Docker", text: "Docker" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/petsw5ba6z4kobnhieby.svg", alt: "Sourcetree", text: "Sourcetree" },
+        { path: "https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/i9xtckueqz2wmutogytc.svg", alt: "Postman", text: "Postman" },
     ];
 
     return (
