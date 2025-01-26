@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Card = ({ imagePath, children }) => {
     return (
         <div className="h-80 mx-auto bg-yellow-200 shadow-xl my-3">
