@@ -54,7 +54,7 @@ const Stickies = ({
 
                         </Card>
 
-                        <Card imagePath="/portfolio/public/images/dishes.webp">
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944515/profolio/ah6ccaihlwzjasym8ms1.webp">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Receipe
@@ -75,7 +75,7 @@ const Stickies = ({
 
                         </Card>
                         
-                        <Card imagePath="/portfolio/public/images/portfolio.webp">
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944526/profolio/daskws10uscc01skqum8.webp">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Portfolio website
