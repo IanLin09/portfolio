@@ -51,13 +51,10 @@ const Stickies = ({
                                 <TechBadge text="mongodb" color="emerald" />
                                 <TechBadge text="Mysql" color="orange" />
                             </div>
-                            <div className="basis-1/4 mt-5">
-                                <a href="">Repo</a>
-                            </div>
 
                         </Card>
 
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
+                        <Card imagePath="/portfolio/public/images/dishes.webp">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Receipe
@@ -78,7 +75,7 @@ const Stickies = ({
 
                         </Card>
                         
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
+                        <Card imagePath="/portfolio/public/images/portfolio.webp">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Portfolio website
