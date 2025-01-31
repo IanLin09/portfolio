@@ -6,31 +6,45 @@ const items = [
         title: "Jun. 2018",
         cardTitle: "Graduation",
         cardSubtitle: "Graduation with IM bachnlor degree",
-        cardDetailedText: "This is the first event on the timeline.This is the first event on the timeline.This is the first event on the timeline.This is the first event on the timeline.",
+        cardDetailedText: "Learning basic Coding knowledge and digital security. Made a website for care attendant who was hired for the elder ",
     },
     {
         title: "Apr. 2019",
-        cardTitle: "First Job",
-        cardSubtitle: "Event 2 Subtitle",
-        cardDetailedText: "This is the second event on the timeline.",
+        cardTitle: (
+            <a href="https://www.unidyna.com/">
+            Unidyna - Small size systems integration company
+            </a>
+        ),
+        cardSubtitle: "First Job",
+        cardDetailedText: `
+            The company's flagship product is a comprehensive management system that empowers salespeople to efficiently monitor and track collaboration across all organizational levels.
+            My responsibility includes maintaining projects from different companies and developing new features to their requirement. Using PHP as the main language.
+        `,
     },
     {
         title: "Jun. 2020",
-        cardTitle: "Second Job",
-        cardSubtitle: "Event 3 Subtitle",
-        cardDetailedText: "This is the third event on the timeline.",
+        cardTitle: (
+            <a href="https://www.cbesg.com/">
+            CBES - Cross-Border E-commerce Service
+            </a>
+        ),
+        cardSubtitle: "Second Job",
+        cardDetailedText: "The company owns a variety of the type e-commercial websites. We use Magento for the web page and Laravel for the system console that helps our sales trace prices, setsetting events, etc.",
     },
     {
         title: "Sep. 2022",
-        cardTitle: "Event 3",
-        cardSubtitle: "Event 3 Subtitle",
-        cardDetailedText: "This is the third event on the timeline.",
+        cardTitle: (
+            <a href="https://www.cbesg.com/">
+            TWDD - designated driving service
+            </a>
+        ),
+        cardSubtitle: "Third Job",
+        cardDetailedText: "This enterprise offer designated driving service for people who can not driving at that moment. I am participant for re-build our data structure. Also take charge for the matching mechanism for our service.",
     },
     {
         title: "Feb. 2025",
-        cardTitle: "Australia",
-        cardSubtitle: "Event 3 Subtitle",
-        cardDetailedText: "This is the third event on the timeline.",
+        cardTitle: "Australia Working holiday",
+        cardDetailedText: "Have been written some side project. Now excited about whole new expirience for the new life.",
     }
 ];
 

@@ -19,10 +19,12 @@ const Terminal = ({
                     <TypeAnimation
                         style={{ whiteSpace: 'pre-line', height: '180px', display: 'block' }}
                         sequence={[
-                            `My name is Chun Yi Lin \nJust call me Ian is fine.\n You are visiting my portfolio website.\n
-                            And you have not close this page so I assume you have some interest in me.\n Here's a littie tips help you find out more information:\n
-                            Click the album on the desk to learn more about my background.
-                            Click the bookshelf will show you which kind of project I've been made.
+                            `My name is Chun Yi Lin \nCall me Ian is fine.\n You are visiting my MacOS-like portfolio website.\n
+                            Since you have not close this page so I assume you have some interest in me.\n Here's a littie tips help you find out more information:\n
+                            I put a photo of me in Picture.
+                            Sharing my job experience on Calender.
+                            Stickies will show you which kind of project I had or have been made.
+                            Last but not least, fews contact info on Contact icon.
                             `,
                             2000,
                             

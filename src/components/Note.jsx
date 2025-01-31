@@ -34,7 +34,55 @@ const Stickies = ({
                         <div className="m-1 bg-[#d6b11c] text-white font-bold py-2 px-4 rounded min-h-16">Project</div>
                     </div>
                     <div className='z-index-20 pt-1 flex-grow grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 flex-1 overflow-y-auto'>
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737887912/profolio/a69yy2ltq5sin4glbbwc.jpg">
+                        
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944515/profolio/ah6ccaihlwzjasym8ms1.webp">
+                            <div class="basis-1/4">
+                                <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
+                                    Receipe
+                                </p>
+                            </div>
+                            <div class="basis-1/4">
+                                <p className="mt-4 text-xs lg:text-sm text-slate-500">
+                                    "Made to encourage myself to cook on my own."
+                                </p>
+                            </div>
+
+                            {/* star */}
+                            <div className="basis-2/4 mt-4 flex items-center flex-wrap gap-2">
+                                <TechBadge text="Express" color="blue" />
+                                <TechBadge text="Laravel" color="indigo" />
+                                <TechBadge text="Mysql" color="orange" />
+                            </div>
+                            <div className="basis-1/4 mt-2">
+                                <a className='text-blue-600/100 underline' href="https://github.com/IanLin09/lazyP_recipe">Repo</a>
+                            </div>
+
+                        </Card>
+                        
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944526/profolio/daskws10uscc01skqum8.webp">
+                            <div class="basis-1/4">
+                                <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
+                                    Portfolio website
+                                </p>
+                            </div>
+                            <div class="basis-1/4">
+                                <p className="mt-4 text-xs lg:text-sm text-slate-500">
+                                    "A MacOS-like website, which You're watching right now"
+                                </p>
+                            </div>
+                            
+
+                            {/* star */}
+                            <div className="basis-1/4 mt-4 flex items-center flex-wrap gap-2">
+                                <TechBadge text="React" color="blue" />
+                                <TechBadge text="Tailwind" color="indigo" />
+                            </div>
+                            <div className="basis-1/4 mt-2">
+                                <a className='text-blue-600/100 underline' href="https://github.com/IanLin09/portfolio">Repo</a>
+                            </div>
+                        </Card>
+
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1738314129/profolio/a6x5tyz7yyguah2vxswc.webp">
                             <div class="basis-1/5">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     data analysis
@@ -52,49 +100,6 @@ const Stickies = ({
                                 <TechBadge text="Mysql" color="orange" />
                             </div>
 
-                        </Card>
-
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944515/profolio/ah6ccaihlwzjasym8ms1.webp">
-                            <div class="basis-1/4">
-                                <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
-                                    Receipe
-                                </p>
-                            </div>
-                            <div class="basis-1/4">
-                                <p className="mt-4 text-xs lg:text-sm text-slate-500">
-                                    "A match system based on performence of the driver"
-                                </p>
-                            </div>
-
-                            {/* star */}
-                            <div className="basis-2/4 mt-4 flex items-center flex-wrap gap-2">
-                                <TechBadge text="Express" color="blue" />
-                                <TechBadge text="Laravel" color="indigo" />
-                                <TechBadge text="Mysql" color="orange" />
-                            </div>
-
-                        </Card>
-                        
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944526/profolio/daskws10uscc01skqum8.webp">
-                            <div class="basis-1/4">
-                                <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
-                                    Portfolio website
-                                </p>
-                            </div>
-                            <div class="basis-1/4">
-                                <p className="mt-4 text-xs lg:text-sm text-slate-500">
-                                    "A MACOS-like website, which You're watching right now"
-                                </p>
-                            </div>
-
-                            {/* star */}
-                            <div className="basis-1/4 mt-4 flex items-center flex-wrap gap-2">
-                                <TechBadge text="React" color="blue" />
-                                <TechBadge text="Tailwind" color="indigo" />
-                            </div>
-                            <div className="basis-1/4 mt-5">
-                                <a href="">Repo</a>
-                            </div>
                         </Card>
                     </div>
                 </div>
