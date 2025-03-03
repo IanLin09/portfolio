@@ -1,5 +1,4 @@
-// ImageWithModal.jsx
-import React from "react";
+import {memo} from "react";
 import { TypeAnimation } from 'react-type-animation';
 import Modal from './Modal.jsx'
 
@@ -38,4 +37,4 @@ const Terminal = ({
     );
 }
 
-export default Terminal
+export default memo(Terminal);

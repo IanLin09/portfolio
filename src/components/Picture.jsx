@@ -1,4 +1,4 @@
-import React from 'react';
+import {memo} from 'react';
 import Modal from './Modal.jsx'
 
 
@@ -35,4 +35,4 @@ const Picture = ({
     );
 }
 
-export default Picture;
+export default memo(Picture);

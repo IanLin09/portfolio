@@ -1,4 +1,4 @@
-import React from 'react';
+import {memo} from 'react';
 import Modal from './Modal.jsx'
 import TimeLine from './Timeline.jsx'
 
@@ -17,7 +17,6 @@ const Calendar = ({
                     <div className="flex min-w-60 overflow-x-auto">
                         <TimeLine></TimeLine>
                     </div>
-
                 </div>
             </Modal>
 
@@ -25,4 +24,4 @@ const Calendar = ({
     );
 }
 
-export default Calendar;
+export default memo(Calendar);

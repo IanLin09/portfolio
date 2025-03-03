@@ -1,4 +1,4 @@
-import React from 'react';
+import {memo} from 'react';
 import Modal from './Modal.jsx';
 import Card from './Card.jsx';
 
@@ -108,4 +108,4 @@ const Stickies = ({
     );
 }
 
-export default Stickies;
+export default memo(Stickies);

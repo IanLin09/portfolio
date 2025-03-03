@@ -1,4 +1,4 @@
-import React from 'react';
+import {useCallback, useState} from 'react';
 import Footer from "./FooterBar.jsx";
 import Terminal from "./Terminal.jsx";
 import Picture from './Picture.jsx';
@@ -8,7 +8,7 @@ import Contact from './Contact.jsx';
 
 const Page = () => {
 
-    const [modals, setModals] = React.useState({
+    const [modals, setModals] = useState({
         calendar: { isOpen: false },
         contact: { isOpen: false },
         terminal: { isOpen: true },
@@ -16,19 +16,19 @@ const Page = () => {
         note: { isOpen: false },
     });
 
-    const handleOpenModal = (id) => {
+    const handleOpenModal = useCallback((id) => {
         setModals((prevModals) => ({
             ...prevModals,
             [id]: { isOpen: true },
         }));
-    };
+    },[]);
 
-    const handleCloseModal = (id) => {
+    const handleCloseModal = useCallback((id) => {
         setModals((prevModals) => ({
             ...prevModals,
             [id]: { isOpen: false },
         }));
-    };
+    },[]);
 
     const termicalIsOpen = modals.terminal.isOpen;
     const pictureIsOpen = modals.picture.isOpen;

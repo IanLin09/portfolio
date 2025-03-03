@@ -1,4 +1,4 @@
-import React from 'react';
+import {memo} from 'react';
 
 const Footer = ({ onOpenModal }) => {
 
@@ -38,4 +38,4 @@ const Footer = ({ onOpenModal }) => {
     );
 };
 
-export default Footer
+export default memo(Footer) 
