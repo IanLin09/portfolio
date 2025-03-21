@@ -54,8 +54,10 @@ const Stickies = ({
                                 <TechBadge text="Mysql" color="orange" />
                             </div>
                             <div className="basis-1/4 mt-2">
-                                <a className='text-blue-600/100 underline' href="https://github.com/IanLin09/lazyP_recipe">Repo</a>
+                                <a className='mr-4 text-blue-600/100 underline' target='_blank' href="https://github.com/IanLin09/lazyP_recipe">Repo </a>
+                                <a className='text-blue-600/100 underline' target='_blank' href="https://lazyprecipe-dev.up.railway.app/home">Memo </a>
                             </div>
+
 
                         </Card>
                         
@@ -78,7 +80,7 @@ const Stickies = ({
                                 <TechBadge text="Tailwind" color="indigo" />
                             </div>
                             <div className="basis-1/4 mt-2">
-                                <a className='text-blue-600/100 underline' href="https://github.com/IanLin09/portfolio">Repo</a>
+                                <a className='text-blue-600/100 underline'  target='_blank' href="https://github.com/IanLin09/portfolio">Repo</a>
                             </div>
                         </Card>
 
