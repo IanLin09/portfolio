@@ -35,7 +35,7 @@ const Stickies = ({
                     </div>
                     <div className='z-index-20 pt-1 flex-grow grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 flex-1 overflow-y-auto'>
                         
-                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944515/profolio/ah6ccaihlwzjasym8ms1.webp">
+                         {/* <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1737944515/profolio/ah6ccaihlwzjasym8ms1.webp">
                             <div class="basis-1/4">
                                 <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
                                     Receipe
@@ -47,7 +47,7 @@ const Stickies = ({
                                 </p>
                             </div>
 
-                            {/* star */}
+                            
                             <div className="basis-2/4 mt-4 flex items-center flex-wrap gap-2">
                                 <TechBadge text="Express" color="blue" />
                                 <TechBadge text="Laravel" color="indigo" />
@@ -56,6 +56,30 @@ const Stickies = ({
                             <div className="basis-1/4 mt-2">
                                 <a className='mr-4 text-blue-600/100 underline' target='_blank' href="https://github.com/IanLin09/lazyP_recipe">Repo </a>
                                 <a className='text-blue-600/100 underline' target='_blank' href="https://lazyprecipe-dev.up.railway.app/home">Memo </a>
+                            </div>
+
+
+                        </Card>  */}
+                        <Card imagePath="https://res.cloudinary.com/dsftikc0a/image/upload/v1750657325/stock_x6zgor.png">
+                            <div class="basis-1/4">
+                                <p className="uppercase tracking-wide text-xs md:text-sm text-indigo-500 font-semibold">
+                                    Stock monitoring
+                                </p>
+                            </div>
+                            <div class="basis-1/4">
+                                <p className="mt-4 text-xs lg:text-sm text-slate-500">
+                                    "Made for analyzing the stock I've brought."
+                                </p>
+                            </div>
+
+                            {/* star */}
+                            <div className="basis-2/4 mt-4 flex items-center flex-wrap gap-2">
+                                <TechBadge text="NextJs" color="blue" />
+                                <TechBadge text="Lambda" color="indigo" />
+                            </div>
+                            <div className="basis-1/4 mt-2">
+                                {/* <a className='mr-4 text-blue-600/100 underline' target='_blank' href="https://github.com/IanLin09/lazyP_recipe">Repo </a> */}
+                                <a className='text-blue-600/100 underline' target='_blank' href="https://lazyp-stock.vercel.app/">Memo </a>
                             </div>
 
 
